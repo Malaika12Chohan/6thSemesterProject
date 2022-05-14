@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="150dp"
+    android:layout_height="400dp"
+    android:layout_marginLeft="20dp"
+    android:background="@drawable/back22"
+    android:orientation="vertical"
+    tools:context=".activity_recents_row_item">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/ring_image"
+            android:layout_gravity="center"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:src="@drawable/mala"
+            />
+
+        <TextView
+            android:id="@+id/ring_name"
+            android:layout_width="124dp"
+            android:layout_height="22dp"
+            android:fontFamily="@font/racing_sans_one"
+            android:text="Ring"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/desc_name"
+            android:layout_width="166dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="@font/rozha_one"
+            android:padding="10dp"
+            android:text="for girls.jewller"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/price_name"
+            android:layout_width="137dp"
+            android:layout_height="25dp"
+            android:layout_marginBottom="184dp"
+            android:fontFamily="@font/racing_sans_one"
+            android:text="3000"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

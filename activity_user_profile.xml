@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserProfile">
+   <include layout="@layout/toolbar"/>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:paddingTop="15dp"
+      android:orientation="vertical">
+<com.mikhaellopez.circularimageview.CircularImageView
+    android:layout_width="110dp"
+    android:layout_height="110dp"
+    android:src="@drawable/mala"
+    />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+         android:text="Malaika Imran"
+          android:textColor="@color/pink"
+          android:textSize="20dp"
+          android:layout_marginTop="8dp"
+          android:textStyle="bold"
+          />
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:background="@color/pink"
+          android:layout_marginTop="10dp"
+
+         />
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:paddingLeft="15dp"
+       android:paddingRight="15dp"
+       android:layout_marginTop="20dp"
+       android:gravity="center_vertical"
+       >
+      <ImageView
+          android:layout_width="30dp"
+          android:layout_height="30dp"
+         android:src="@drawable/pinkperson"
+          />
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+         android:text="First Name"
+          android:textStyle="bold"
+          android:textColor="@color/black1"
+          android:textSize="20dp"
+          android:layout_marginLeft="5dp" />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Malaika"
+           android:layout_marginLeft="25dp"
+           android:textSize="20dp"
+           android:textColor="@color/grey" />
+
+
+   </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/grey"
+        android:layout_marginTop="10dp"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        >
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/pinkperson"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Name"
+            android:textStyle="bold"
+            android:textColor="@color/black1"
+            android:textSize="20dp"
+            android:layout_marginLeft="5dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Imran"
+            android:layout_marginLeft="25dp"
+            android:textSize="20dp"
+            android:textColor="@color/grey" />
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/grey"
+        android:layout_marginTop="10dp"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        >
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/pinkmail"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textStyle="bold"
+            android:textColor="@color/black1"
+            android:textSize="20dp"
+            android:layout_marginLeft="5dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="bitm-f19-037@superior.edu.pk"
+            android:layout_marginLeft="70dp"
+            android:textSize="20dp"
+            android:textColor="@color/grey" />
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/grey"
+        android:layout_marginTop="10dp"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_btn"
+            android:text="Edit Profile"
+            android:gravity="center"
+            android:textColor="@color/pink"
+            android:textSize="18dp"
+            android:drawableLeft="@drawable/pinkedit"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="-10dp"
+
+            />
+        <TextView
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_btn"
+            android:text="Change Password"
+            android:gravity="center"
+            android:textColor="@color/pink"
+            android:textSize="18dp"
+            android:drawableLeft="@drawable/pinklock"
+            android:paddingLeft="20dp"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginTop="15dp"
+
+            />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

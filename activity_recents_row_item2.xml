@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="400dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/back22"
+    android:orientation="vertical"
+    tools:context=".recents_row_item">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/ring_image"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:src="@drawable/mala"
+        />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/ring_name"
+        android:layout_width="96dp"
+        android:layout_height="28dp"
+        android:layout_marginEnd="184dp"
+        android:fontFamily="@font/racing_sans_one"
+        android:text="Ring"
+
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/desc_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.727"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/desc_name"
+        android:layout_width="145dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="148dp"
+        android:fontFamily="@font/rozha_one"
+        android:padding="10dp"
+        android:text="Ring for girls"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/price_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/price_name"
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="192dp"
+        android:fontFamily="@font/rozha_one"
+        android:text="3000"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
